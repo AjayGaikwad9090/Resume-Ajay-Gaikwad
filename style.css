@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+/* Header styling */
+.main {
+  margin: 20px auto;
+  width: 80%;
+}
+.main .header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: rgb(68, 68, 100);
+  height: 180px;
+
+  width: 100%;
+}
+.header .profileImg {
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  top: 50px;
+  left: 120px;
+  border: 5px solid white;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+  user-select: none;
+  filter: grayscale(100%);
+}
+.header .profileImg:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+.nameTag {
+  color: white;
+  margin-left: auto;
+  width: 60%;
+}
+.nameTag h1 {
+  font-size: 70px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.nameTag p {
+  font-size: 20px;
+  color: lightgray;
+}
+.nameTag p span {
+  color: rgb(223, 99, 115);
+}
+/* Header styling */
+
+/* Details Left styling */
+.details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left {
+  width: 30%;
+  background-color: rgb(236, 236, 236);
+  text-align: center;
+  padding-bottom: 30px;
+}
+.left .contactInfo {
+  margin-top: 130px;
+  padding: 0px 30px;
+  margin-bottom: 35px;
+}
+.contactInfo h4 {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.contactInfo .info h5 {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.info h5 i {
+  margin-right: 10px;
+  color: rgb(11, 112, 11);
+}
+p {
+  font-size: 17px;
+}
+.skillsInfo {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.skillsInfo h1 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 10px;
+  margin-top: 30px;
+  margin: 15px 30px;
+}
+.text {
+  display: flex;
+  align-items: center;
+}
+.text img {
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.social {
+  display: flex;
+  margin-top: 25px;
+  margin: 10px 30px;
+
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.social h1 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.text2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin: 10px 0px;
+}
+.text2 p {
+  font-size: 12px;
+  text-decoration: underline;
+}
+.text2 p span {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.text3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.text3 i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.text3 .btnLink1 {
+  background-color: #0a66c2;
+}
+.text3 .btnLink2 {
+  background-color: #171515;
+}
+.text3 .btnLink3 {
+  background-color: #1da1f2;
+}
+.text3 .btnLink4 {
+  background-color: #3b5998;
+}
+.text3 .btnLink5 {
+  background-color: rgb(253, 0, 76);
+}
+.btnLink1:hover,
+.btnLink2:hover,
+.btnLink3:hover,
+.btnLink4:hover,
+.btnLink5:hover {
+  opacity: 0.8;
+}
+.btn {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+/* Details Left styling */
+
+/* Details Right styling */
+
+.right {
+  width: 70%;
+  padding: 50px;
+}
+.titleText {
+  font-size: 35px;
+  font-weight: normal;
+}
+.titleText .gray {
+  margin-right: 30px;
+  color: lightgray;
+  font-size: 50px;
+}
+.right p {
+  color: gray;
+  padding-left: 70px;
+  font-size: 22px;
+  text-align: justify;
+  word-break: break-all;
+  margin: 20px 0px;
+}
+.project {
+  margin-bottom: 20px;
+}
+.project .links {
+  position: relative;
+}
+.project h3 {
+  padding-left: 70px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.project p {
+  padding: 0;
+  padding-left: 70px;
+  margin: 5px 0px;
+  font-size: 14px;
+}
+.project a {
+  padding: 0;
+  padding-left: 70px;
+  margin: 5px 0px;
+  font-size: 13px;
+  color: gray;
+  text-decoration: underline;
+}
+
+/* Details Right styling */
+#printBtn {
+  margin: 50px 0px 50px 190px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(68, 68, 100);
+  font-size: 24px;
+  outline: none;
+  border-radius: 5px;
+  width: 100px;
+  transition: 0.3s;
+}
+#printBtn:hover {
+  background-color: black;
+}
+@media print {
+  body {
+    visibility: hidden;
+  }
+  .main {
+    visibility: visible;
+    width: 90%;
+  }
+  .Profile p {
+    font-size: 16px;
+  }
+  .Education p {
+    font-size: 16px;
+  }
+  .left .contactInfo {
+    padding: 0px 30px;
+    margin-bottom: 60px;
+  }
+  .left .contactInfo {
+    margin-top: 150px;
+    padding: 0px 30px;
+  }
+  .left {
+    width: 30%;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .header .profileImg {
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    top: 60px;
+    left: 70px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 24px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+    filter: grayscale(100%);
+  }
+}
